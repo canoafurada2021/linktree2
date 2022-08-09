@@ -1,74 +1,99 @@
 
-
-body{
-background: white;
- font-family: 'Open Sans', sans-serif;
-font-size: 15px;
-letter-spacing: 2px;
-background-color: rgba(5, 80, 148, 1)
-;
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: rgba(180, 217, 253, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-img{
-border-radius: 50%;
+.logo-company {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
 }
 
-.profile-picture{
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 10%;
-    height: auto;
-    max-width: 100px;
+
+.container-tamanho {
+    width: 500px;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-.profile-name{
-text-align: center;
-padding: 30px;
-color: white;
+.profile-content {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
 }
 
-.link{
-    text-align: center;
-margin-top: 20px;
-padding: 10px;
-border: 1px solid white;
-border-width: 2px;
-width: 290px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-border-radius: 30px;
+.profile-content > img {
+    height: 50px;
+    width: 50px;
 }
 
-.profile-informations{
-    text-align: center;
-color: white;
+.profile-information {
+    display: flex;
+    flex-direction: column;
 }
 
-.profile-number{
-text-align: center;
-padding: 5px;
-color: white;
-font-size: 15;
+.link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-a{
+
+.logo-company {
+    align-items: center;
+    flex-direction: column;
+    height: 20px;
+    width: 80px;
+}
+
+.my-social-medias {
+    font-size: 16px;
+}
+
+.divider {
+    opacity: 0.40;
+    width: 460px;
+    border-top: 1px solid #bbb;
+}
+
+a:link {
+    color: black;
+}
+
+.container-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-rodape {
+    display: block;
+    margin: auto
+}
+
+.url {
     text-decoration: none;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-a:hover{
-    color: #000;
-    background: #FFF;
 }
 
-.logo{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+@media only screen and (max-width: 445px) {
+
 }
